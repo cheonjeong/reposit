@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ObjLoader">
+      <UniqueIdentifier>{28841f84-f748-4fec-a707-b975403400c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjMap">
+      <UniqueIdentifier>{1905d5da-0d53-46e2-a197-4d26bcf721a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AseLoader">
+      <UniqueIdentifier>{fb9ac5dd-0c71-42c6-80bb-b236e2baf90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CubMen">
+      <UniqueIdentifier>{17bcb32d-6b4d-4419-ac6e-00cfdc4df3bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\camera">
+      <UniqueIdentifier>{4210f990-d0e8-4e53-966e-11435c548945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Main">
+      <UniqueIdentifier>{cd3ef041-4c90-487b-9191-a3b27aa3b6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Cube">
+      <UniqueIdentifier>{b6a8a2cb-1156-4544-8a87-397382eab19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Device">
+      <UniqueIdentifier>{84920dcb-c557-44bf-aa2a-96c3c7123afc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Grid&amp;Pyramid">
+      <UniqueIdentifier>{a2823261-769a-4caa-8bc8-d76591fc6ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sphere">
+      <UniqueIdentifier>{0493a999-f378-457b-9aea-52e6833177b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Ray">
+      <UniqueIdentifier>{24685bfd-0b89-467b-9632-ed7f3d307cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\func">
+      <UniqueIdentifier>{70808e2d-1cd3-4cb7-afa8-099635647908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PickApp">
+      <UniqueIdentifier>{00ede76d-c054-4305-b9e3-712c8c46bad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\pathFinder">
+      <UniqueIdentifier>{32ab4684-f3c9-48d7-989d-71ffd24175fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\board">
+      <UniqueIdentifier>{d8990b8e-8010-4ddc-bfb4-37fc5902d5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\rawLoader">
+      <UniqueIdentifier>{266cc324-b45a-42d0-86f6-b32b666a5968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\XfileLoader">
+      <UniqueIdentifier>{ab258f1f-a542-4892-bc62-554cea890b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\HeightMap">
+      <UniqueIdentifier>{a0bdf0c6-0674-4359-9d8d-4f0f236d4d9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="Text.txt">
+      <Filter>ObjLoader</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cMtlTex.h">
+      <Filter>ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cGroup.h">
+      <Filter>ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectManager.h">
+      <Filter>ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjLoader.h">
+      <Filter>ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureManager.h">
+      <Filter>ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX_t2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="iMap.h">
+      <Filter>ObjMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cobjMap.h">
+      <Filter>ObjMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Asciitok.h">
+      <Filter>AseLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrame.h">
+      <Filter>AseLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cAseLoader.h">
+      <Filter>AseLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cBody.h">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClInclude>
+    <ClInclude Include="cCharacter.h">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeMan.h">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClInclude>
+    <ClInclude Include="cHead.h">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClInclude>
+    <ClInclude Include="cLeftArm.h">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClInclude>
+    <ClInclude Include="cLeftLeg.h">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClInclude>
+    <ClInclude Include="cRightArm.h">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClInclude>
+    <ClInclude Include="cRightLeg.h">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>소스 파일\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeNode.h">
+      <Filter>소스 파일\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubePC.h">
+      <Filter>소스 파일\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubePNT.h">
+      <Filter>소스 파일\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="cDeviceManager.h">
+      <Filter>소스 파일\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="cGrid.h">
+      <Filter>소스 파일\Grid&amp;Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="cPyramid.h">
+      <Filter>소스 파일\Grid&amp;Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="cSphere.h">
+      <Filter>소스 파일\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="cRay.h">
+      <Filter>소스 파일\Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>소스 파일\func</Filter>
+    </ClInclude>
+    <ClInclude Include="cPickApp.h">
+      <Filter>소스 파일\PickApp</Filter>
+    </ClInclude>
+    <ClInclude Include="cPathFinder.h">
+      <Filter>소스 파일\pathFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoard.h">
+      <Filter>소스 파일\board</Filter>
+    </ClInclude>
+    <ClInclude Include="cHeightMap.h">
+      <Filter>소스 파일\HeightMap</Filter>
+    </ClInclude>
+    <ClInclude Include="xFileLoader.h">
+      <Filter>소스 파일\XfileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimerManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cAllocateHierachy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkineedMEsh.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cMtlTex.cpp">
+      <Filter>ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cGroup.cpp">
+      <Filter>ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectManager.cpp">
+      <Filter>ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjLoader.cpp">
+      <Filter>ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureManager.cpp">
+      <Filter>ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DX_t2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="iMap.cpp">
+      <Filter>ObjMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cobjMap.cpp">
+      <Filter>ObjMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrame.cpp">
+      <Filter>AseLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cAseLoader.cpp">
+      <Filter>AseLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cBody.cpp">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClCompile>
+    <ClCompile Include="cCharacter.cpp">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeMan.cpp">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClCompile>
+    <ClCompile Include="cHead.cpp">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClCompile>
+    <ClCompile Include="cLeftArm.cpp">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClCompile>
+    <ClCompile Include="cLeftLeg.cpp">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClCompile>
+    <ClCompile Include="cRightArm.cpp">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClCompile>
+    <ClCompile Include="cRightLeg.cpp">
+      <Filter>소스 파일\CubMen</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>소스 파일\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeNode.cpp">
+      <Filter>소스 파일\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubePC.cpp">
+      <Filter>소스 파일\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubePNT.cpp">
+      <Filter>소스 파일\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="cDeviceManager.cpp">
+      <Filter>소스 파일\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="cGrid.cpp">
+      <Filter>소스 파일\Grid&amp;Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="cPyramid.cpp">
+      <Filter>소스 파일\Grid&amp;Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="cSphere.cpp">
+      <Filter>소스 파일\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="cRay.cpp">
+      <Filter>소스 파일\Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>소스 파일\func</Filter>
+    </ClCompile>
+    <ClCompile Include="cPickApp.cpp">
+      <Filter>소스 파일\PickApp</Filter>
+    </ClCompile>
+    <ClCompile Include="cPathFinder.cpp">
+      <Filter>소스 파일\pathFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoard.cpp">
+      <Filter>소스 파일\board</Filter>
+    </ClCompile>
+    <ClCompile Include="cHeightMap.cpp">
+      <Filter>소스 파일\HeightMap</Filter>
+    </ClCompile>
+    <ClCompile Include="xFileLoader.cpp">
+      <Filter>소스 파일\XfileLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimerManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cAllocateHierachy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkineedMEsh.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D3DX_t2.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="D3DX_t2.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
