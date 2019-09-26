@@ -201,6 +201,9 @@
     <ClInclude Include="cSkineedMEsh.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="cZFrustum.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -318,6 +321,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="cSkineedMEsh.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cZFrustum.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

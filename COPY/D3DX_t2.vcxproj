@@ -180,6 +180,7 @@
     <ClInclude Include="cSphere.h" />
     <ClInclude Include="cTextureManager.h" />
     <ClInclude Include="cTimerManager.h" />
+    <ClInclude Include="cZFrustum.h" />
     <ClInclude Include="D3DX_t2.h" />
     <ClInclude Include="func.h" />
     <ClInclude Include="iMap.h" />
@@ -223,6 +224,7 @@
     <ClCompile Include="cSphere.cpp" />
     <ClCompile Include="cTextureManager.cpp" />
     <ClCompile Include="cTimerManager.cpp" />
+    <ClCompile Include="cZFrustum.cpp" />
     <ClCompile Include="D3DX_t2.cpp" />
     <ClCompile Include="func.cpp" />
     <ClCompile Include="iMap.cpp" />
