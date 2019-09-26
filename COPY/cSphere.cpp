@@ -15,9 +15,9 @@ cSphere::cSphere(D3DXVECTOR3 pos)
 {
 }
 
-void cSphere::SetUp()
+void cSphere::SetUp(float Radius)
 {
-	_Radius = 0.5f;
+	_Radius = Radius;
 	D3DXCreateSphere(
 		g_pD3DDevice,
 		_Radius, 10, 10, &m_pMeshSphere, NULL);

@@ -11,7 +11,7 @@ public:
 	D3DMATERIAL9			m_Sphere;
 
 public:
-	void SetUp();
+	void SetUp(float Radius = 0.5f);
 	void Render();
 
 private:
@@ -27,5 +27,6 @@ private:
 	D3DXVECTOR3			m_pos;
 public:
 	D3DXVECTOR3	Getpos() { return m_pos; }
+	float GetRadius() { return _Radius; }
 };
 

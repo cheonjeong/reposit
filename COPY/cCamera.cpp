@@ -10,6 +10,7 @@ cCamera::cCamera()
 	, m_fCameraDistance(5.0f)
 	, m_isRButtonDown(false)
 	, m_vCamRotAngle(0,0,0)
+
 {
 	m_ptPrevMouse.x = 0;
 	m_ptPrevMouse.y = 0;
@@ -26,10 +27,10 @@ void cCamera::Setup(D3DXVECTOR3 * pvTarget)
 	RECT rc;
 	GetClientRect(g_hWnd, &rc);
 
-	D3DXMATRIXA16 matProj;
-	D3DXMatrixPerspectiveFovLH(&matProj, D3DX_PI / 4.0f, rc.right / (float)rc.bottom, 1.0f, 1000.0f);
-	g_pD3DDevice->SetTransform(D3DTS_PROJECTION, &matProj);
+	D3DXMatrixPerspectiveFovLH(&m_matProj, D3DX_PI / 4.0f, rc.right / (float)rc.bottom, 1.0f, 1000.0f);
+	g_pD3DDevice->SetTransform(D3DTS_PROJECTION, &m_matProj);
 
+	
 }
 
 void cCamera::Update()
@@ -53,10 +54,12 @@ void cCamera::Update()
 		m_vEye = m_vEye + *m_pvTarget;
 	}
 
-	D3DXMATRIXA16 matView;
-	D3DXMatrixLookAtLH(&matView, &m_vEye, &m_vLookAt, &m_vUp);
-	g_pD3DDevice->SetTransform(D3DTS_VIEW, &matView);
+	D3DXMATRIXA16 m_matView;
+	D3DXMatrixLookAtLH(&m_matView, &m_vEye, &m_vLookAt, &m_vUp);
+	g_pD3DDevice->SetTransform(D3DTS_VIEW, &m_matView);
 
+	/*D3DXMATRIXA16 viewProj = m_matView * m_matProj;
+	g_pZFrustum->make(&viewProj);*/
 }
 
 void cCamera::WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)

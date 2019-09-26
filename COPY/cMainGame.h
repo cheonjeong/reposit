@@ -15,6 +15,7 @@ class cHeightMap;
 
 class cSkineedMEsh;
 
+
 class cMainGame
 {
 public:
@@ -58,6 +59,7 @@ public:
 private:
 	cPickApp*				m_Picking;
 	vector<cSphere*>		m_vecpSphere;
+	vector<cSphere*>		m_onlyDraw;
 	cSphere*				m_pSphere;
 	cRay*					m_pRay;
 
@@ -74,4 +76,5 @@ public:
 	void SetupHeightMap();
 private:
 	cSkineedMEsh*				m_pSkinnedMesh;
+	bool						isCulling;
 };

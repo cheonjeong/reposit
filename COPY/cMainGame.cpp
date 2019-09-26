@@ -25,7 +25,7 @@
 #include"cSkineedMEsh.h"
 #include"cTimerManager.h"
 
-
+#define RADIUS 0.5f
 
 cMainGame::cMainGame()
 	: //m_pCubePC(NULL)
@@ -42,6 +42,8 @@ cMainGame::cMainGame()
 	, m_pBoard(NULL)
 	, m_pickboard(false)
 	, m_pSkinnedMesh(NULL)
+	, isCulling(false)
+	
 
 
 
@@ -82,44 +84,26 @@ void cMainGame::Setup()
 	m_pRay = new cRay();
 	
 	m_Picking = new cPickApp();
-
+	
 	{
-		m_pSphere = new cSphere(D3DXVECTOR3(0.0f, 0.0f, -10.0f));
-		m_vecpSphere.push_back(m_pSphere);
-
-		m_pSphere = new cSphere(D3DXVECTOR3(0.0f, 0.0f, -7.5f));
-		m_vecpSphere.push_back(m_pSphere);
-
-		m_pSphere = new cSphere(D3DXVECTOR3(0.0f, 0.0f, -5.0f));
-		m_vecpSphere.push_back(m_pSphere);
-
-		m_pSphere = new cSphere(D3DXVECTOR3(0.0f, 0.0f, -2.5f));
-		m_vecpSphere.push_back(m_pSphere);
-
-		m_pSphere = new cSphere(D3DXVECTOR3(0.0f, 0.0f, 0.0f));
-		m_vecpSphere.push_back(m_pSphere);
-
-		m_pSphere = new cSphere(D3DXVECTOR3(0.0f, 0.0f, 2.5f));
-		m_vecpSphere.push_back(m_pSphere);
-
-		m_pSphere = new cSphere(D3DXVECTOR3(0.0f, 0.0f, 5.0f));
-		m_vecpSphere.push_back(m_pSphere);
-
-		m_pSphere = new cSphere(D3DXVECTOR3(0.0f, 0.0f, 7.5f));
-		m_vecpSphere.push_back(m_pSphere);
-
-		m_pSphere = new cSphere(D3DXVECTOR3(0.0f, 0.0f, 10.0f));
-		m_vecpSphere.push_back(m_pSphere);
+		for(int y = -20; y <= 20; y += RADIUS * 2)
+			for (int z = -20; z <= 20; z += RADIUS * 2)
+				for (int x = -20; x <= 20; x += RADIUS * 2)
+				{
+					m_pSphere = new cSphere(D3DXVECTOR3(x, y, z));
+					m_vecpSphere.push_back(m_pSphere);
+					m_onlyDraw.push_back(m_pSphere);
+				}
 	}
 
 		for (int i = 0; i < m_vecpSphere.size(); i++)
 		{
-			m_vecpSphere[i]->SetUp();
+			m_vecpSphere[i]->SetUp(RADIUS);
 		}
-
-
 	m_pCamera = new cCamera();
 	m_pCamera->Setup(NULL); //&m_pCubeMan->GetPosition()
+
+	g_pZFrustum->BuildViewFrustum();
 
 	m_pGrid = new cGrid();
 	m_pGrid->Setup();
@@ -177,7 +161,19 @@ void cMainGame::Update()
 	if (m_pCamera)
 		m_pCamera->Update();
 
+	if (isCulling)
+	{
+		g_pZFrustum->BuildViewFrustum();
+		m_onlyDraw.clear();
+		for (int i = 0; i < m_vecpSphere.size(); i++)
+		{
+			if (g_pZFrustum->SphereInFrustum(&m_vecpSphere[i]->Getpos(), m_vecpSphere[i]->GetRadius()))
+				m_onlyDraw.push_back(m_vecpSphere[i]);
+		}
+		isCulling = false;
+	}
 
+	
 	/*if (m_pRootFrame)
 	{
 		m_pRootFrame->Update(m_pRootFrame->GetKeyFrame(), NULL);
@@ -214,10 +210,10 @@ void cMainGame::Render()
 	if (m_pMap)
 		m_pMap->Render();
 
-	/*for (int i = 0; i < m_vecpSphere.size(); i++)
-		m_vecpSphere[i]->Render();*/
+	for (int i = 0; i < m_onlyDraw.size(); i++)
+		m_onlyDraw[i]->Render();
 		
-
+	g_pZFrustum->Draw(g_pD3DDevice);
 	
 	//Render_Obj();
 
@@ -274,10 +270,11 @@ void cMainGame::WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 	case WM_LBUTTONUP:
 		//m_pickboard = false;
 		break;
-	case WM_RBUTTONDOWN:
+	case WM_MBUTTONDOWN:
 	{
 		static int n = 0;
 		m_pSkinnedMesh->SetAnimationIndexBlend(n++);
+		isCulling = true;
 	}
 		break;
 	}

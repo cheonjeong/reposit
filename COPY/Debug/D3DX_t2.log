@@ -1,0 +1,18 @@
+﻿  cMainGame.cpp
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(75): warning C4316: 'cCubeMan': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(84): warning C4316: 'cRay': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(89): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(90): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(91): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(93): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(99): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(103): warning C4316: 'cCamera': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(111): warning C4316: 'cBoard': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(168): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(213): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(257): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(258): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(247): warning C4101: 'sphere' :참조되지 않은 지역 변수입니다.
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(338): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  D3DX_t2.vcxproj -> C:\Users\Inha\Desktop\gitrepos\COPY\Debug\D3DX_t2.exe
+  D3DX_t2.vcxproj -> C:\Users\Inha\Desktop\gitrepos\COPY\Debug\D3DX_t2.pdb (Full PDB)

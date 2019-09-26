@@ -1,0 +1,163 @@
+﻿  stdafx.cpp
+  xFileLoader.cpp
+c:\users\inha\desktop\gitrepos\copy\xfileloader.cpp(43): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  iMap.cpp
+  func.cpp
+  D3DX_t2.cpp
+  cZFrustum.cpp
+  cTimerManager.cpp
+  cTextureManager.cpp
+  cSphere.cpp
+  cSkineedMEsh.cpp
+c:\users\inha\desktop\gitrepos\copy\cskineedmesh.cpp(107): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cskineedmesh.cpp(211): warning C4552: '%': 의미 없는 연산자입니다. 파생 작업이 있는 연산자여야 합니다.
+c:\users\inha\desktop\gitrepos\copy\cskineedmesh.cpp(243): warning C4101: 'stTrackDesc' :참조되지 않은 지역 변수입니다.
+  cRightLeg.cpp
+  cRightArm.cpp
+  cRay.cpp
+  cPyramid.cpp
+c:\users\inha\desktop\gitrepos\copy\cpyramid.cpp(59): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cPickApp.cpp
+  cPathFinder.cpp
+c:\users\inha\desktop\gitrepos\copy\cpathfinder.h(24): warning C4091: 'typedef ': 변수를 선언하지 않으면 'NODE' 왼쪽은 무시됩니다.
+c:\users\inha\desktop\gitrepos\copy\cpathfinder.cpp(79): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cpathfinder.cpp(86): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cpathfinder.cpp(158): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cobjMap.cpp
+  cObjLoader.cpp
+c:\users\inha\desktop\gitrepos\copy\cobjloader.cpp(405): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cobjloader.cpp(427): warning C4267: '=': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cObjectManager.cpp
+  cObject.cpp
+  cMtlTex.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  cMainGame.cpp
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(261): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(262): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(251): warning C4101: 'sphere' :참조되지 않은 지역 변수입니다.
+c:\users\inha\desktop\gitrepos\copy\cmaingame.cpp(325): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cLeftLeg.cpp
+  cLeftArm.cpp
+  cHeightMap.cpp
+c:\users\inha\desktop\gitrepos\copy\cheightmap.cpp(55): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cheightmap.cpp(110): warning C4267: '인수': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cheightmap.cpp(162): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cheightmap.cpp(163): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cHead.cpp
+  cGroup.cpp
+c:\users\inha\desktop\gitrepos\copy\cgroup.cpp(25): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cGrid.cpp
+c:\users\inha\desktop\gitrepos\copy\cgrid.cpp(63): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cgrid.cpp(71): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cFrame.cpp
+c:\users\inha\desktop\gitrepos\copy\cframe.cpp(44): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cframe.cpp(53): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cframe.cpp(77): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cframe.cpp(82): warning C4267: '=': 'size_t'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cframe.cpp(102): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cframe.cpp(177): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\inha\desktop\gitrepos\copy\cframe.cpp(222): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cDeviceManager.cpp
+  cCubePNT.cpp
+c:\users\inha\desktop\gitrepos\copy\ccubepnt.cpp(85): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cCubePC.cpp
+c:\users\inha\desktop\gitrepos\copy\ccubepc.cpp(113): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cCubeNode.cpp
+  cCubeMan.cpp
+  cCharacter.cpp
+  cCamera.cpp
+  cBody.cpp
+  cBoard.cpp
+c:\users\inha\desktop\gitrepos\copy\cboard.cpp(107): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cAseLoader.cpp
+  cAllocateHierachy.cpp
+  코드를 생성하고 있습니다...
+c:\users\inha\desktop\gitrepos\copy\cboard.cpp(126): warning C4715: 'cBoard::progress': 모든 제어 경로에서 값을 반환하지는 않습니다.
+cRightArm.obj : error LNK2001: D3DXVec3TransformCoord 외부 기호를 확인할 수 없습니다.
+cRightLeg.obj : error LNK2001: D3DXVec3TransformCoord 외부 기호를 확인할 수 없습니다.
+func.obj : error LNK2001: D3DXVec3TransformCoord 외부 기호를 확인할 수 없습니다.
+cHead.obj : error LNK2001: D3DXVec3TransformCoord 외부 기호를 확인할 수 없습니다.
+cLeftArm.obj : error LNK2001: D3DXVec3TransformCoord 외부 기호를 확인할 수 없습니다.
+cLeftLeg.obj : error LNK2001: D3DXVec3TransformCoord 외부 기호를 확인할 수 없습니다.
+cObjLoader.obj : error LNK2001: D3DXVec3TransformCoord 외부 기호를 확인할 수 없습니다.
+cAseLoader.obj : error LNK2001: D3DXVec3TransformCoord 외부 기호를 확인할 수 없습니다.
+cBoard.obj : error LNK2001: D3DXVec3TransformCoord 외부 기호를 확인할 수 없습니다.
+cBody.obj : error LNK2001: D3DXVec3TransformCoord 외부 기호를 확인할 수 없습니다.
+cCamera.obj : error LNK2001: D3DXVec3TransformCoord 외부 기호를 확인할 수 없습니다.
+cAseLoader.obj : error LNK2019: D3DXVec3TransformNormal 외부 기호(참조 위치: "private: void __cdecl cAseLoader::ProcessMESH(class cFrame *)" (?ProcessMESH@cAseLoader@@AEAAXPEAVcFrame@@@Z) 함수)에서 확인하지 못했습니다.
+cCharacter.obj : error LNK2001: D3DXVec3TransformNormal 외부 기호를 확인할 수 없습니다.
+cCubePC.obj : error LNK2001: D3DXVec3TransformNormal 외부 기호를 확인할 수 없습니다.
+func.obj : error LNK2001: D3DXVec3TransformNormal 외부 기호를 확인할 수 없습니다.
+cAseLoader.obj : error LNK2019: D3DXMatrixInverse 외부 기호(참조 위치: "private: void __cdecl cAseLoader::ProcessMESH(class cFrame *)" (?ProcessMESH@cAseLoader@@AEAAXPEAVcFrame@@@Z) 함수)에서 확인하지 못했습니다.
+cFrame.obj : error LNK2001: D3DXMatrixInverse 외부 기호를 확인할 수 없습니다.
+cMainGame.obj : error LNK2001: D3DXMatrixInverse 외부 기호를 확인할 수 없습니다.
+cAseLoader.obj : error LNK2019: D3DXQuaternionMultiply 외부 기호(참조 위치: "public: struct D3DXQUATERNION __cdecl D3DXQUATERNION::operator*(struct D3DXQUATERNION const &)const " (??DD3DXQUATERNION@@QEBA?AU0@AEBU0@@Z) 함수)에서 확인하지 못했습니다.
+func.obj : error LNK2001: D3DXVec3Normalize 외부 기호를 확인할 수 없습니다.
+cBoard.obj : error LNK2001: D3DXVec3Normalize 외부 기호를 확인할 수 없습니다.
+cCubePNT.obj : error LNK2001: D3DXVec3Normalize 외부 기호를 확인할 수 없습니다.
+cHeightMap.obj : error LNK2001: D3DXVec3Normalize 외부 기호를 확인할 수 없습니다.
+cMainGame.obj : error LNK2001: D3DXVec3Normalize 외부 기호를 확인할 수 없습니다.
+cRightArm.obj : error LNK2001: D3DXMatrixTranslation 외부 기호를 확인할 수 없습니다.
+cRightLeg.obj : error LNK2001: D3DXMatrixTranslation 외부 기호를 확인할 수 없습니다.
+cSphere.obj : error LNK2001: D3DXMatrixTranslation 외부 기호를 확인할 수 없습니다.
+cCubePC.obj : error LNK2001: D3DXMatrixTranslation 외부 기호를 확인할 수 없습니다.
+cHead.obj : error LNK2001: D3DXMatrixTranslation 외부 기호를 확인할 수 없습니다.
+cLeftArm.obj : error LNK2001: D3DXMatrixTranslation 외부 기호를 확인할 수 없습니다.
+cLeftLeg.obj : error LNK2001: D3DXMatrixTranslation 외부 기호를 확인할 수 없습니다.
+cBoard.obj : error LNK2001: D3DXMatrixTranslation 외부 기호를 확인할 수 없습니다.
+cBody.obj : error LNK2001: D3DXMatrixTranslation 외부 기호를 확인할 수 없습니다.
+cCharacter.obj : error LNK2001: D3DXMatrixTranslation 외부 기호를 확인할 수 없습니다.
+cCubeNode.obj : error LNK2001: D3DXMatrixTranslation 외부 기호를 확인할 수 없습니다.
+cBoard.obj : error LNK2019: D3DXIntersectTri 외부 기호(참조 위치: "public: struct D3DXVECTOR3 __cdecl cBoard::progress(class cRay *)" (?progress@cBoard@@QEAA?AUD3DXVECTOR3@@PEAVcRay@@@Z) 함수)에서 확인하지 못했습니다.
+cobjMap.obj : error LNK2001: D3DXIntersectTri 외부 기호를 확인할 수 없습니다.
+cRightLeg.obj : error LNK2019: D3DXMatrixMultiply 외부 기호(참조 위치: "public: struct D3DXMATRIX __cdecl D3DXMATRIX::operator*(struct D3DXMATRIX const &)const " (??DD3DXMATRIX@@QEBA?AU0@AEBU0@@Z) 함수)에서 확인하지 못했습니다.
+cSkineedMEsh.obj : error LNK2001: D3DXMatrixMultiply 외부 기호를 확인할 수 없습니다.
+cLeftLeg.obj : error LNK2001: D3DXMatrixMultiply 외부 기호를 확인할 수 없습니다.
+cMainGame.obj : error LNK2001: D3DXMatrixMultiply 외부 기호를 확인할 수 없습니다.
+cPyramid.obj : error LNK2001: D3DXMatrixMultiply 외부 기호를 확인할 수 없습니다.
+cRightArm.obj : error LNK2001: D3DXMatrixMultiply 외부 기호를 확인할 수 없습니다.
+cCubePC.obj : error LNK2001: D3DXMatrixMultiply 외부 기호를 확인할 수 없습니다.
+cFrame.obj : error LNK2001: D3DXMatrixMultiply 외부 기호를 확인할 수 없습니다.
+cHead.obj : error LNK2001: D3DXMatrixMultiply 외부 기호를 확인할 수 없습니다.
+cLeftArm.obj : error LNK2001: D3DXMatrixMultiply 외부 기호를 확인할 수 없습니다.
+cBody.obj : error LNK2001: D3DXMatrixMultiply 외부 기호를 확인할 수 없습니다.
+cCamera.obj : error LNK2001: D3DXMatrixMultiply 외부 기호를 확인할 수 없습니다.
+cCharacter.obj : error LNK2001: D3DXMatrixMultiply 외부 기호를 확인할 수 없습니다.
+cCubeNode.obj : error LNK2001: D3DXMatrixMultiply 외부 기호를 확인할 수 없습니다.
+cMainGame.obj : error LNK2001: D3DXMatrixScaling 외부 기호를 확인할 수 없습니다.
+cPyramid.obj : error LNK2001: D3DXMatrixScaling 외부 기호를 확인할 수 없습니다.
+cRightArm.obj : error LNK2001: D3DXMatrixScaling 외부 기호를 확인할 수 없습니다.
+cRightLeg.obj : error LNK2001: D3DXMatrixScaling 외부 기호를 확인할 수 없습니다.
+cBody.obj : error LNK2001: D3DXMatrixScaling 외부 기호를 확인할 수 없습니다.
+cHead.obj : error LNK2001: D3DXMatrixScaling 외부 기호를 확인할 수 없습니다.
+cLeftArm.obj : error LNK2001: D3DXMatrixScaling 외부 기호를 확인할 수 없습니다.
+cLeftLeg.obj : error LNK2001: D3DXMatrixScaling 외부 기호를 확인할 수 없습니다.
+cCamera.obj : error LNK2019: D3DXMatrixRotationX 외부 기호(참조 위치: "public: void __cdecl cCamera::Update(void)" (?Update@cCamera@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+cCubeNode.obj : error LNK2001: D3DXMatrixRotationX 외부 기호를 확인할 수 없습니다.
+cGrid.obj : error LNK2001: D3DXMatrixRotationX 외부 기호를 확인할 수 없습니다.
+cMainGame.obj : error LNK2001: D3DXMatrixRotationX 외부 기호를 확인할 수 없습니다.
+cCamera.obj : error LNK2019: D3DXMatrixRotationY 외부 기호(참조 위치: "public: void __cdecl cCamera::Update(void)" (?Update@cCamera@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+cCharacter.obj : error LNK2001: D3DXMatrixRotationY 외부 기호를 확인할 수 없습니다.
+cCubePC.obj : error LNK2001: D3DXMatrixRotationY 외부 기호를 확인할 수 없습니다.
+xFileLoader.obj : error LNK2001: D3DXMatrixRotationY 외부 기호를 확인할 수 없습니다.
+cCamera.obj : error LNK2019: D3DXMatrixLookAtLH 외부 기호(참조 위치: "public: void __cdecl cCamera::Update(void)" (?Update@cCamera@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+cCamera.obj : error LNK2019: D3DXMatrixPerspectiveFovLH 외부 기호(참조 위치: "public: void __cdecl cCamera::Setup(struct D3DXVECTOR3 *)" (?Setup@cCamera@@QEAAXPEAUD3DXVECTOR3@@@Z) 함수)에서 확인하지 못했습니다.
+cCubeMan.obj : error LNK2019: D3DXCreateTextureFromFileW 외부 기호(참조 위치: "public: virtual void __cdecl cCubeMan::Setup(void)" (?Setup@cCubeMan@@UEAAXXZ) 함수)에서 확인하지 못했습니다.
+cMainGame.obj : error LNK2001: D3DXCreateTextureFromFileW 외부 기호를 확인할 수 없습니다.
+xFileLoader.obj : error LNK2001: D3DXCreateTextureFromFileW 외부 기호를 확인할 수 없습니다.
+cDeviceManager.obj : error LNK2019: Direct3DCreate9 외부 기호(참조 위치: "private: __cdecl cDeviceManager::cDeviceManager(void)" (??0cDeviceManager@@AEAA@XZ) 함수)에서 확인하지 못했습니다.
+cFrame.obj : error LNK2019: D3DXMatrixRotationQuaternion 외부 기호(참조 위치: "public: void __cdecl cFrame::CalcLocalR(int,struct _D3DXMATRIXA16 &)" (?CalcLocalR@cFrame@@QEAAXHAEAU_D3DXMATRIXA16@@@Z) 함수)에서 확인하지 못했습니다.
+cFrame.obj : error LNK2019: D3DXQuaternionSlerp 외부 기호(참조 위치: "public: void __cdecl cFrame::CalcLocalR(int,struct _D3DXMATRIXA16 &)" (?CalcLocalR@cFrame@@QEAAXHAEAU_D3DXMATRIXA16@@@Z) 함수)에서 확인하지 못했습니다.
+cGrid.obj : error LNK2019: D3DXMatrixRotationZ 외부 기호(참조 위치: "public: void __cdecl cGrid::Setup(int,float)" (?Setup@cGrid@@QEAAXHM@Z) 함수)에서 확인하지 못했습니다.
+cHeightMap.obj : error LNK2019: D3DXCreateMeshFVF 외부 기호(참조 위치: "public: void __cdecl cHeightMap::Setup(char *,char *,char *,unsigned long)" (?Setup@cHeightMap@@QEAAXPEAD00K@Z) 함수)에서 확인하지 못했습니다.
+cObjLoader.obj : error LNK2001: D3DXCreateMeshFVF 외부 기호를 확인할 수 없습니다.
+cSkineedMEsh.obj : error LNK2019: D3DXLoadMeshHierarchyFromXA 외부 기호(참조 위치: "public: void __cdecl cSkineedMEsh::Setup(char *,char *)" (?Setup@cSkineedMEsh@@QEAAXPEAD0@Z) 함수)에서 확인하지 못했습니다.
+cSkineedMEsh.obj : error LNK2019: D3DXFrameDestroy 외부 기호(참조 위치: "public: __cdecl cSkineedMEsh::~cSkineedMEsh(void)" (??1cSkineedMEsh@@QEAA@XZ) 함수)에서 확인하지 못했습니다.
+cSkineedMEsh.obj : error LNK2019: D3DXFrameFind 외부 기호(참조 위치: "public: void __cdecl cSkineedMEsh::SetupBoneMatrixPtrs(struct _D3DXFRAME *)" (?SetupBoneMatrixPtrs@cSkineedMEsh@@QEAAXPEAU_D3DXFRAME@@@Z) 함수)에서 확인하지 못했습니다.
+cSphere.obj : error LNK2019: D3DXCreateSphere 외부 기호(참조 위치: "public: void __cdecl cSphere::SetUp(void)" (?SetUp@cSphere@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+cTextureManager.obj : error LNK2019: D3DXCreateTextureFromFileA 외부 기호(참조 위치: "public: struct IDirect3DTexture9 * __cdecl cTextureManager::GetTexture(char *)" (?GetTexture@cTextureManager@@QEAAPEAUIDirect3DTexture9@@PEAD@Z) 함수)에서 확인하지 못했습니다.
+xFileLoader.obj : error LNK2019: D3DXLoadMeshFromXA 외부 기호(참조 위치: "public: bool __cdecl xFileLoader::Setup(char *)" (?Setup@xFileLoader@@QEAA_NPEAD@Z) 함수)에서 확인하지 못했습니다.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\Inha\Desktop\gitrepos\COPY\x64\Debug\D3DX_t2.exe : fatal error LNK1120: 25개의 확인할 수 없는 외부 참조입니다.

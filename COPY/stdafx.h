@@ -132,3 +132,4 @@ struct ST_ROT_SAMPLE
 #include "cObject.h"
 #include "cObjectManager.h"
 #include "cTextureManager.h"
+#include"cZFrustum.h"

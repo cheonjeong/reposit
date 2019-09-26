@@ -1,4 +1,5 @@
 #pragma once
+
 class cCamera
 {
 public:
@@ -22,5 +23,8 @@ public:
 	void Update();
 	
 	void WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam);
+private:
+	D3DXMATRIXA16 m_matView;
+	D3DXMATRIXA16 m_matProj;
 };
 
